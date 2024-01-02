@@ -56,13 +56,13 @@ rB = roots(mianB)
 obiektB = tf(liczB,mianB); % obiekt A
 obiektZB = feedback(obiektB,1); % obiekt zamknięty
 
-[liczZ, mianZ] = tfdata(obiektZ_A,'v');
+[liczZ, mianZ] = tfdata(obiektZB,'v');
 
 rZ_B = roots(mianZ) 
 
-%-2.8933 + 0.0000i
-%-0.0534 + 0.8297i
-%-0.0534 - 0.8297i
+%-1.5832 + 0.0000i
+%0.0416 + 0.7937i
+%0.0416 - 0.7937i
 
 figure(2)
 hold on;
